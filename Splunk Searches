@@ -1,0 +1,2 @@
+#FIND WHERE LOCKED OUT'S OCCURRING FOR USER
+index=windows LogName=Security user=ENTERUSERNAMEHERE name="A user account was locked out"
