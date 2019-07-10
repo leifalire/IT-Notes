@@ -1,0 +1,2 @@
+#Help to search through IIS logs
+logparser -i:W3C -o:csv "SELECT * INTO c:\temp\results.csv FROM c:\temp\myLogFile.log"
