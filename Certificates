@@ -1,0 +1,2 @@
+# This will output advanced details about all of the certificates installed on the server including the hostname:port and certificate store where the certificate is located.
+netsh http show sslcert
