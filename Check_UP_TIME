@@ -1,0 +1,2 @@
+systeminfo /s COMPUTERNAMEHERE| find "Boot Time"
+(Get-Date) - (Get-CimInstance Win32_OperatingSystem -ComputerName COMPUTERNAMEHERE).LastBootupTime
