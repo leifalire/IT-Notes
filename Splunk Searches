@@ -1,5 +1,4 @@
 #FIND WHERE LOCKED OUT'S OCCURRING FOR USER
 index=windows LogName=Security user=ENTERUSERNAMEHERE name="A user account was locked out"
-
-# Find IP Address for VPN users
+#Find IP Address for VPN users
 index=syslog ENTERUSERNAMEHERE vpn AND "IPv4 Address"
